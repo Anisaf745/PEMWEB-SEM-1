@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar js</title>
+    <script>
+        function otentikasi(){
+            const admin ="ahmad2017";
+            const passadmin ="integrity";
+
+            let uname = document.getElementById("username").value;
+            let pass = document.getElementById("pass").value;
+
+            if(uname == admin && pass == passadmin){
+                alert("sukses")
+                return true;
+            }else{
+                alert("Gagal");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>login</h1>
+    <form method="post" action="webined.html">
+        username : <input type="text" name="username">
+        <br>
+        Password : <input type="password" name="pass">
+        <br>
+        <input type="submit" value="Login" onclick="otentikasi()"> 
+    </form>
+</body>
+</html>

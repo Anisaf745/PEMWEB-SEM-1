@@ -1,0 +1,26 @@
+/* style.css */
+
+/* Gaya tambahan untuk header */
+.header-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Sesuaikan tampilan carousel */
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Memberikan padding dan margin yang konsisten */
+section {
+    padding: 20px 0;
+}
+
+/* Menambahkan gaya pada footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+}
